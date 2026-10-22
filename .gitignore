@@ -12,3 +12,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# Imagenes originales (solo para generar optimizadas, no subir)
+assets/*-original.png
