@@ -81,60 +81,74 @@
   <!-- PROYECTOS -->
     <section id="proyectos" class="section">
     <h2>Casos de estudio</h2>
-    <p class="section-subtitle">Proyectos reales, en produccion, con decisiones tecnicas que resuelven problemas concretos.</p>
-
-    <article class="case-study" style="border: 2px solid #0A2540; background: #f8fafc;">
+        <article class="case-study" style="border: 2px solid #0A2540; background: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <div class="case-header">
         <h3>ENC Logística</h3>
-        <span class="case-stack">Next.js 16 · Supabase · TypeScript · Playwright</span>
+        <span class="case-stack">Plataforma B2B · Next.js · Supabase</span>
       </div>
       <div class="case-body">
         <div class="case-block">
-          <h4>El problema</h4>
-          <p>Una empresa de logística de última milla necesitaba gestionar envíos multi-origen (18 departamentos, 92 ciudades), entregas con C.I., cobro contra entrega y reportes para clientes B2B, todo desde el celular.</p>
+          <h4>El desafío</h4>
+          <p>Las tiendas de Asunción enviaban paquetes a Encarnación por encomienda de bus. Sus clientes debían ir a la terminal a retirarlos, lo que generaba pérdida de ventas, malas reseñas y cero control sobre los cobros contra entrega.</p>
         </div>
         <div class="case-block">
           <h4>La solución</h4>
-          <p>Plataforma completa con dashboard operativo, portal de clientes B2B, PWA instalable, reportes CSV y seguridad auditada (Rate Limiting atómico + RLS + Ley 6534/2020).</p>
+          <p>Una plataforma integral que digitaliza la operación: el repartidor gestiona entregas desde el celular (PWA), la tienda ve el estado de cada envío en tiempo real, y el sistema calcula automáticamente las comisiones y rendiciones.</p>
         </div>
         <div class="case-block">
-          <h4>El resultado</h4>
-          <p>App en producción con 5 tests E2E pasando, auditoría de seguridad cerrada con reservas y documentación completa (manuales, PDF comercial y acta de auditoría).</p>
+          <h4>El impacto</h4>
+          <p>Entregas puerta a puerta con confirmación fotográfica, control total de la mercadería y una experiencia profesional que fideliza a los clientes finales. La tienda puede ver sus reportes desde cualquier dispositivo.</p>
         </div>
       </div>
-      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px;">
-        <a href="https://enc-logistica.vercel.app" target="_blank" rel="noopener" class="case-link" style="background: #0A2540; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Ver proyecto en vivo →</a>
-        <a href="https://enc-logistica.vercel.app/contacto" target="_blank" rel="noopener" class="case-link" style="border: 1px solid #0A2540; color: #0A2540; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Solicitar Demo</a>
+      <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="https://enc-logistica.vercel.app" target="_blank" rel="noopener" class="case-link" style="background: #0A2540; color: #fff; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-weight: bold;">Ver la plataforma en vivo →</a>
+        <a href="https://enc-logistica.vercel.app/contacto" target="_blank" rel="noopener" class="case-link" style="border: 1px solid #0A2540; color: #0A2540; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-weight: bold;">Solicitar Demo</a>
       </div>
     </article>
-
 
     <article class="case-study">
       <div class="case-header">
         <h3>PanFree</h3>
-        <span class="case-stack">Next.js · Supabase · Vercel</span>
+        <span class="case-stack">Gestión de pedidos · Next.js · Supabase</span>
       </div>
       <div class="case-body">
-        <div class="case-block"><h4>El problema</h4><p>Una panaderia sin gluten gestionaba pedidos y stock de forma manual, con riesgo de errores.</p></div>
-        <div class="case-block"><h4>La solucion</h4><p>Aplicacion web con autenticacion, base de datos en Supabase y despliegue en Vercel.</p></div>
-        <div class="case-block"><h4>El resultado</h4><p>Gestion centralizada de pedidos y stock, accesible desde cualquier dispositivo.</p></div>
+        <div class="case-block">
+          <h4>El desafío</h4>
+          <p>Una panadería sin gluten gestionaba sus pedidos y stock en cuadernos y planillas de Excel. Los errores eran frecuentes, y no había forma de saber qué se había entregado o cuánto se había cobrado.</p>
+        </div>
+        <div class="case-block">
+          <h4>La solución</h4>
+          <p>Una aplicación web con autenticación de usuarios, catálogo de productos, control de stock en tiempo real y registro de pedidos. Todo accesible desde el celular o la computadora, sin instalar nada.</p>
+        </div>
+        <div class="case-block">
+          <h4>El impacto</h4>
+          <p>Centralización total de la operación, eliminación de errores manuales y la posibilidad de escalar el negocio sin perder el control de la mercadería.</p>
+        </div>
       </div>
-      <a href="https://www.panfree.fit/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo</a>
+      <a href="https://www.panfree.fit/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo →</a>
     </article>
 
     <article class="case-study">
       <div class="case-header">
         <h3>FFAA-MONITOR</h3>
-        <span class="case-stack">JavaScript · PostgreSQL · Render</span>
+        <span class="case-stack">Control de acceso · PostgreSQL · Render</span>
       </div>
       <div class="case-body">
-        <div class="case-block"><h4>El problema</h4><p>Plataforma para monitoreo con distintos niveles de acceso, cada usuario ve solo lo que le corresponde.</p></div>
-        <div class="case-block"><h4>La solucion</h4><p>Autenticacion, permisos basados en roles y base de datos PostgreSQL. Despliegue en Render.</p></div>
-        <div class="case-block"><h4>El resultado</h4><p>Acceso segmentado por rol, con administracion centralizada.</p></div>
+        <div class="case-block">
+          <h4>El desafío</h4>
+          <p>Una institución necesitaba monitorear información sensible, pero requería que cada usuario viera solo los datos que le correspondían según su rango o rol. La seguridad era crítica.</p>
+        </div>
+        <div class="case-block">
+          <h4>La solución</h4>
+          <p>Una plataforma con autenticación robusta y permisos basados en roles (RBAC). Los administradores gestionan los accesos, y cada usuario ve únicamente el panel que le corresponde.</p>
+        </div>
+        <div class="case-block">
+          <h4>El impacto</h4>
+          <p>Acceso segmentado y centralizado, cumpliendo con los requisitos de seguridad y confidencialidad de la institución.</p>
+        </div>
       </div>
-      <a href="https://paraguay-ffaa-metalstorm.onrender.com/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo</a>
-    </article>
-  </section>
+      <a href="https://paraguay-ffaa-metalstorm.onrender.com/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo →</a>
+    </article></section>
 
   <!-- CONTACTO -->
   <section id="contacto" class="section">
