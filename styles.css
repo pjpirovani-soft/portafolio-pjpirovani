@@ -290,3 +290,70 @@ a:hover { opacity: 0.85; }
     max-width: 200px;
   }
 }
+/* Casos de estudio */
+.section-subtitle {
+  color: var(--gray);
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.case-study {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.2s;
+}
+.case-study:hover {
+  border-color: var(--accent);
+}
+
+.case-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.case-header h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin: 0;
+}
+.case-stack {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.case-body {
+  display: grid;
+  gap: 1.5rem;
+}
+.case-block h4 {
+  color: var(--accent);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+.case-block p {
+  color: var(--gray);
+  margin: 0;
+  font-size: 0.98rem;
+}
+
+.case-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.case-link:hover {
+  text-decoration: underline;
+}
