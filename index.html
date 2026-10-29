@@ -79,20 +79,61 @@
   </section>
 
   <!-- PROYECTOS -->
-  <section id="proyectos" class="section">
-    <h2>Proyectos en producción</h2>
-    <div class="grid">
-      <a href="https://www.panfree.fit/" target="_blank" rel="noopener" class="card card-link">
+    <section id="proyectos" class="section">
+    <h2>Casos de estudio</h2>
+    <p class="section-subtitle">Proyectos reales, en produccion, con decisiones tecnicas que resuelven problemas concretos.</p>
+
+    <article class="case-study" style="border: 2px solid #0A2540; background: #f8fafc;">
+      <div class="case-header">
+        <h3>ENC Logística</h3>
+        <span class="case-stack">Next.js 16 · Supabase · TypeScript · Playwright</span>
+      </div>
+      <div class="case-body">
+        <div class="case-block">
+          <h4>El problema</h4>
+          <p>Una empresa de logística de última milla necesitaba gestionar envíos multi-origen (18 departamentos, 92 ciudades), entregas con C.I., cobro contra entrega y reportes para clientes B2B, todo desde el celular.</p>
+        </div>
+        <div class="case-block">
+          <h4>La solución</h4>
+          <p>Plataforma completa con dashboard operativo, portal de clientes B2B, PWA instalable, reportes CSV y seguridad auditada (Rate Limiting atómico + RLS + Ley 6534/2020).</p>
+        </div>
+        <div class="case-block">
+          <h4>El resultado</h4>
+          <p>App en producción con 5 tests E2E pasando, auditoría de seguridad cerrada con reservas y documentación completa (manuales, PDF comercial y acta de auditoría).</p>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px;">
+        <a href="https://enc-logistica.vercel.app" target="_blank" rel="noopener" class="case-link" style="background: #0A2540; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Ver proyecto en vivo →</a>
+        <a href="https://enc-logistica.vercel.app/contacto" target="_blank" rel="noopener" class="case-link" style="border: 1px solid #0A2540; color: #0A2540; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">Solicitar Demo</a>
+      </div>
+    </article>
+
+
+    <article class="case-study">
+      <div class="case-header">
         <h3>PanFree</h3>
-        <p>Aplicacion web de gestión empresarial para una panadería sin gluten.</p>
-        <span class="card-stack">Next.js · Supabase · Vercel</span>
-      </a>
-      <a href="https://paraguay-ffaa-metalstorm.onrender.com/" target="_blank" rel="noopener" class="card card-link">
+        <span class="case-stack">Next.js · Supabase · Vercel</span>
+      </div>
+      <div class="case-body">
+        <div class="case-block"><h4>El problema</h4><p>Una panaderia sin gluten gestionaba pedidos y stock de forma manual, con riesgo de errores.</p></div>
+        <div class="case-block"><h4>La solucion</h4><p>Aplicacion web con autenticacion, base de datos en Supabase y despliegue en Vercel.</p></div>
+        <div class="case-block"><h4>El resultado</h4><p>Gestion centralizada de pedidos y stock, accesible desde cualquier dispositivo.</p></div>
+      </div>
+      <a href="https://www.panfree.fit/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo</a>
+    </article>
+
+    <article class="case-study">
+      <div class="case-header">
         <h3>FFAA-MONITOR</h3>
-        <p>Plataforma web con autenticación, permisos basados en roles y funciones administrativas.</p>
-        <span class="card-stack">JavaScript · PostgreSQL · Render</span>
-      </a>
-    </div>
+        <span class="case-stack">JavaScript · PostgreSQL · Render</span>
+      </div>
+      <div class="case-body">
+        <div class="case-block"><h4>El problema</h4><p>Plataforma para monitoreo con distintos niveles de acceso, cada usuario ve solo lo que le corresponde.</p></div>
+        <div class="case-block"><h4>La solucion</h4><p>Autenticacion, permisos basados en roles y base de datos PostgreSQL. Despliegue en Render.</p></div>
+        <div class="case-block"><h4>El resultado</h4><p>Acceso segmentado por rol, con administracion centralizada.</p></div>
+      </div>
+      <a href="https://paraguay-ffaa-metalstorm.onrender.com/" target="_blank" rel="noopener" class="case-link">Ver proyecto en vivo</a>
+    </article>
   </section>
 
   <!-- CONTACTO -->
